@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ba2b2b;
+    /* background-image: url('../img/sneakers_banner.png');  */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.Middle{
+    margin-left: 25%;
+}
+
+nav {
+    background-color: black;
+    padding: 0;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    font-size: 2em;
+    font-family: 'Archivo', sans-serif;
+    margin: .5em;
+    font-style: italic;
+}
+
+nav a {
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+header h1 {
+    padding: .3em;
+    padding-left: 1em;
+    font-size: 70pt;
+    font-family: 'Lobster', sans-serif;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: black;
+    color: #919191;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    padding: 1em;
+    margin: 0;
+}
+
+.donation-form {
+    margin: 5em;
+}
+
+.form-body {
+    padding: 4em;
+    border: 1px solid gray;
+}
+
+.login-page {
+    padding: 2em;
+    text-align: center;
+}
+
+.questions {
+    margin: .5em;
+    text-align: center;
+}
+
+nav .current-page {
+    color: #919191;
+    border-bottom: #919191 solid 2px;
+}
+
+.donation-form h2 {
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+}
+
+
+.donation-form .text_input {
+    width: 50%;
+}
+
+@media (min-width: 598px) {}
+
+@media (min-width: 992px) {}
+
+.row img {
+    width: 270px;
+    height: auto;
+}
+
+.container .col-md-11 {
+    padding-right: 0px;
+}
+
+.container .col {
+    padding-left: 0px;
+}
+
+.Quiz {
+    text-align: center;
+  }
+  
+  .question-card {
+    /* Center the div  */
+    margin: 0 auto;
+  
+    /* Dimensions  */
+    width: 80%; /* Can be in percentage also. */
+    height: auto;
+  
+    /* Visual  */
+    background-color: gray;
+    padding: 16px;
+    border-radius: 16px;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+  
+  .Quiz .ul {
+    list-style: none;
+  }
+  
+  div.qButton {
+    margin-top: 8px;
+    background-color: darkgray;
+    padding: 16px;
+    border: 3px solid white;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  
+  .question-text {
+    color: darkblue;
+    font-size: 24px;
+  }
+  
+  /* Final Results  */
+  
+  .final-results {
+    /* Center the div  */
+    margin: 0 auto;
+  
+    /* Dimensions  */
+    width: 50%; /* Can be in percentage also. */
+    height: auto;
+    margin-top: 64px;
+  
+    /* Visual  */
+    background-color: gray;
+    padding: 16px;
+    border-radius: 16px;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+  
+  .Quiz button {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+  
+    border-radius: 24px;
+  }

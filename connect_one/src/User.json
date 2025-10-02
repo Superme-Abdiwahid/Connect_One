@@ -1,0 +1,11 @@
+[
+  
+    {"name":"CSE 142", "Classroom":"Classroom: Kane 131", "img":"./Img/Random_Person.jpg"},
+    {"name": "BIO 180", "Classroom": "Classroom: Kane 130", "img":"public/Bio.jpg"},
+    {"name": "Info 200", "Classroom":"Classroom: GWN 301", "img":"public/ischool.jpg"},
+    {"name":"IUGA", "Classroom":"iSchool", "img":"public/IUGA.jpg"},
+    {"name":"Crags Climbing Center", "Classroom":"UW IMA", "img":"public/crags.jpg"},
+    {"name":"Math 124", "Classroom":"Classroom: PCAR 192", "img":"public/math.jpg"},
+    {"name":"NSBE", "Classroom":"Kelly ECC - Unity Room", "img":"public/NSBE.jpg"}
+  
+  ]

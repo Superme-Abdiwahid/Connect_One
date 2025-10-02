@@ -1,0 +1,80 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-box {
+  max-width: 400px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.signup-image {
+  width: 356px;
+  height: 300px;
+  margin: 20px auto;
+  display: block;
+}
+
+.line {
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.signup-button,
+.signin-button,
+.google-signup-button,
+.facebook-signup-button {
+  margin: 10px;
+  padding: 15px 60px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.google-signup-button,
+.facebook-signup-button {
+  margin: 10px;
+  padding: 15px 100px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-button,
+.signin-button {
+  background-color: purple;
+  color: #fff;
+}
+
+.or-divider {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.social-buttons {
+  margin-top: 20px;
+}
+
+.social-label {
+  display: block;
+}
+
+.social-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+

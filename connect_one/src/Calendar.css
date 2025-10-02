@@ -1,0 +1,63 @@
+.calendar-container {
+  height: 100vh;
+  width: 100%;
+}
+
+.rbc-calendar {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .calendar-container {
+    height: 100vh;
+  }
+}
+
+.calendar-container .rbc-calendar .button-10 {
+  display: flex  !important;
+  flex-direction: column  !important;
+  align-items: center  !important;
+  padding: 6px 14px  !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif  !important;
+  border-radius: 6px  !important;
+  border: none  !important;
+
+  color: #fff  !important;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%)  !important;
+   background-origin: border-box  !important;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2)  !important;
+  user-select: none  !important;
+  -webkit-user-select: none  !important;
+  touch-action: manipulation  !important;
+}
+
+
+.button-10  {
+  display: flex  !important;
+  flex-direction: column  !important;
+  align-items: center  !important;
+  padding: 6px 14px  !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif  !important;
+  border-radius: 6px  !important;
+  border: none  !important;
+
+  color: #fff  !important;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%)  !important;
+   background-origin: border-box  !important;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2)  !important;
+  user-select: none  !important;
+  -webkit-user-select: none  !important;
+  touch-action: manipulation  !important;
+}
+
+.button-10:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5) !important;
+  outline: 0 !important;
+}
+@media screen and (max-width: 576px) {
+  .rbc-calendar {
+    height: 100%;
+    width: 100%;
+  }
+}

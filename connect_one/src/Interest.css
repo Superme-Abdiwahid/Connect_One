@@ -1,0 +1,409 @@
+.Buttons_Interest {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Heading, .Paragraph {
+    padding-left: 20px;
+}
+
+.Buttons_Interest button {
+    flex: 1 0 45%; 
+    margin: 5px;
+    padding: 8px 12px; 
+    font-size: 14px; 
+    background-color: whitesmoke;
+    color: black; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+
+#buttonPurpleColor {
+    background-color: purple;
+}
+
+.Camera {
+    max-width: 12px;
+    max-height: 12px;
+}
+
+.sign-up-form {
+    text-align: center;
+    padding: 20px;
+}
+
+.ConnectOne{
+    height: 200px;
+}
+
+.buttons-section {
+    margin-top: 20px;
+}
+
+.sso-button,
+.phone-button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.social-media-section {
+    margin-top: 30px;
+}
+
+.social-media-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-form {
+    text-align: center;
+    padding: 20px;
+}
+
+.buttons-section {
+    margin-top: 20px;
+}
+
+.sso-button,
+.phone-button {
+    margin: 5px;
+    padding: 15px 40px;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+.social-media-section {
+    margin-top: 30px;
+}
+
+.social-media-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ConnectOne {
+    max-width: 90%;
+    height: auto;
+}
+
+.facebook-button,
+.google-button,
+.apple-button {
+    margin: 10px;
+    padding: 15px 40px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.facebook-button img,
+.google-button img,
+.apple-button img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.legal-section {
+    margin-top: 30px;
+}
+
+.legal-section p {
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .ConnectOne {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .social-media-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .facebook-button,
+    .google-button,
+    .apple-button {
+        width: auto;
+    }
+}
+
+.social-media-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.facebook-logo,
+.google-logo,
+.apple-logo {
+    margin: 10px;
+    width: 100px;
+    height: auto;
+}
+
+
+@media (min-width: 768px) {
+    .social-media-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .facebook-button,
+    .google-button,
+    .apple-button {
+        width: auto;
+    }
+}
+
+
+.button-82-pushable {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-82-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition:
+      transform
+      600ms
+      cubic-bezier(.3, .7, .4, 1);
+  }
+  
+  .button-82-edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(
+      to left,
+      rgb(10, 0, 249) 0%,
+      rgb(0, 26, 163) 8%,
+      rgb(0, 26, 171) 92%,
+      rgb(10, 0, 120) 100%
+    );
+  }
+  
+  .button-82-front {
+    display: block;
+    position: relative;
+    padding: 12px 27px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: rgb(83, 18, 249);
+    will-change: transform;
+    transform: translateY(-4px);
+    transition:
+      transform
+      600ms
+      cubic-bezier(.3, .7, .4, 1);
+  }
+  
+  @media (min-width: 768px) {
+    .button-82-front {
+      font-size: 1.25rem;
+      padding: 12px 42px;
+    }
+  }
+  
+  .button-82-pushable:hover {
+    filter: brightness(110%);
+    -webkit-filter: brightness(110%);
+  }
+  
+  .button-82-pushable:hover .button-82-front {
+    transform: translateY(-6px);
+    transition:
+      transform
+      250ms
+      cubic-bezier(.3, .7, .4, 1.5);
+  }
+  
+  .button-82-pushable:active .button-82-front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+  }
+  
+  .button-82-pushable:hover .button-82-shadow {
+    transform: translateY(4px);
+    transition:
+      transform
+      250ms
+      cubic-bezier(.3, .7, .4, 1.5);
+  }
+  
+  .button-82-pushable:active .button-82-shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+  }
+  
+  .button-82-pushable:focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  .continue-button {
+    /* margin-top: 20px;
+    margin-left: 40px;
+    padding: 25px 100px;
+    font-size: 1.1rem;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease; */
+
+    background-color: #8b4cea;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+.continue-button:hover {
+    transform: translateY(-2px);
+}
+
+.continue-button:active {
+    transform: translateY(2px);
+}
+
+@media (min-width: 768px) {
+  .sign-up-form {
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  .sign-up-form > * {
+      margin-bottom: 0; 
+      flex: 1; 
+  }
+}
+
+
+#navButton {
+    background-color: transparent;
+    border: none !important; 
+    color: inherit;
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+navButton.active {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.969);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; 
+}
+.box{
+    width: 150px;
+    height: 100px;
+}
+
+#box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+#box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.blueLine {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: blue; 
+    transition: width 0.3s ease, transform 0.3s ease;
+  }
+  
+.blueLineActive {
+    color: blue; 
+  }
+
+.line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    height: 1px; 
+    background-color: #000; 
+  }
+.cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+  .underline {
+    position: absolute;
+    bottom: 0; 
+    height: 3px;
+    background-color: blue;
+    width: 50%;
+    transition: left 0.3s ease; 
+  }

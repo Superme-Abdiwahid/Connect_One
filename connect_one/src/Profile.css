@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+.card {
+    width: 350px;
+    background-color: #efefef;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+/* Update the styles for the ProfileContainer */
+.ProfileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the container take up the full viewport height */
+    padding: 0 20px; /* Add horizontal padding to prevent the content from touching the edges */
+}
+
+/* Adjust the width of the card */
+.card {
+    width: 100%; /* Set the card to take up 100% of its container */
+    max-width: 400px; /* Add a max-width for responsiveness */
+    background-color: #efefef;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    padding: 20px; /* Add padding for spacing */
+}
+
+
+/* Update the styles for the image */
+.image {
+    text-align: center; /* Center the content */
+}
+
+/* Remove padding styles for .image as it's not necessary */
+.image {
+    padding: 0;
+}
+
+
+.ProfileImageBtn img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .ProfileImageBtn img:hover {
+    opacity: 0.8;
+  }
+.ProfileName {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.ProfileID {
+    color: #777;
+}
+
+.ProfileInfo {
+    margin-top: 20px;
+}
+
+.EditProfileSection {
+    margin-top: 20px;
+}
+
+.EditBioInput {
+    width: 100%;
+    height: 120px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    resize: vertical;
+    margin-bottom: 10px;
+}
+
+.EditProfileSection input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.SaveButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.EditButton {
+    background-color: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.ProfileDate {
+    margin-top: 20px;
+    color: #777;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  header p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+  }

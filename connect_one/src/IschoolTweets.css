@@ -1,0 +1,53 @@
+/* Tweets.css */
+
+.tweet {
+    border-bottom: 1px solid #ccd6dd; /* Twitter border color */
+    padding: 10px;
+    display: flex;
+  }
+  
+  .tweet-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Circular avatar */
+    margin-right: 10px;
+  }
+  
+  .author-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .author-name {
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+  
+  .author-handle {
+    color: #657786; /* Twitter handle color */
+  }
+  
+  .tweet-content {
+    margin-bottom: 10px;
+  }
+  
+  .tweet-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for images */
+  }
+  
+  .tweet-icons {
+    display: flex;
+    justify-content: space-between;
+    color: #657786; /* Twitter icon color */
+    font-size: 18px;
+    width: 150px; /* Adjust width as needed */
+  }
+  
